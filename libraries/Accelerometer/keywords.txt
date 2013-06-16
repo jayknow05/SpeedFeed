@@ -1,0 +1,58 @@
+#######################################
+# Syntax Coloring Map Versalino
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+Accelerometer	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+calibrate	KEYWORD2
+convert	KEYWORD2
+read	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+_Xraw	LITERAL1
+_Yraw	LITERAL1
+_Zraw	LITERAL1
+
+_Xgs	LITERAL1
+_Ygs	LITERAL1
+_Zgs	LITERAL1
+
+
+
+#######################################
+# Versalino (For the Versalino Library)
+# These should not change, but can be
+# Removed if all Versalino BUS actions
+# are performed on the libraries side.
+# 
+# This however could change the users
+# experience from your library to the
+# next Versalino compatible library
+#######################################
+
+VersalinoBUS	KEYWORD1
+VersalinoPIN	KEYWORD1
+PINS	KEYWORD2
+BUSA	KEYWORD2
+BUSB	KEYWORD2
+TX	LITERAL1
+RX	LITERAL1
+AN0	LITERAL1
+AN1	LITERAL1
+AN2	LITERAL1
+D1	LITERAL1
+P1	LITERAL1
+D2	LITERAL1
+P2	LITERAL1
+D3	LITERAL1
+P3	LITERAL1
